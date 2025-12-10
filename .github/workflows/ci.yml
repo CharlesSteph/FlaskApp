@@ -40,7 +40,7 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Echec du pipeline CI
           body: Les tests ont échoué !
-          to: ton.email@exemple.com
+          to: charlesetchekan@gmail.com
 
   # --- JOB 2 : DOCKER (CONSTRUCTION & PUSH) ---
   docker-build-push:
