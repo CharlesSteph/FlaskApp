@@ -72,5 +72,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/flaskapp:latest
-            ghcr.io/${{ github.repository_owner }}/flaskapp:latest
+            ${{ secrets.DOCKER_USERNAME }}/flaskapp:v0.1
+            ghcr.io/${{ github.repository_owner }}/flaskapp:v0.1
